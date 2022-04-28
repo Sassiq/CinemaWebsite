@@ -11,3 +11,5 @@ Cinema application for ticket booking with user-friendly interface.
 ## Wireframe:
 
 [Desktop]("https://www.figma.com/community/file/1101608530288529132/Cinema-Website")
+
+###### _Stanislav Chekhovich 953502_
