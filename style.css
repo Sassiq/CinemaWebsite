@@ -58,6 +58,8 @@ body {
 .menu-list {
   display: flex;
   list-style: none;
+  text-align: center;
+  align-items: center;
 }
 
 .menu-list-item {
@@ -90,7 +92,7 @@ body {
 
 .container {
   background-color: #151515;
-  min-height: calc(100vh - 50px);
+  min-height: calc(100vh - 100px);
   color: white;
   overflow: hidden;
 }
@@ -205,7 +207,7 @@ body {
 }
 
 .page-background {
-  min-height: calc(100vh - 50px);
+  min-height: calc(100vh - 100px);
   width: 100%;
   background-size: cover;
   display: flex;

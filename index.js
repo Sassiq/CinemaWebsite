@@ -32,10 +32,6 @@ const films = [
 
 const tickets = [{ filmName: "Avengers" }, { filmName: "1917" }];
 
-var cinemaHall = {
-  rows: [10, 20, 30, 30, 30, 30, 30, 30, 30, 30, 30],
-};
-
 function RenderMainPage() {
   document.getElementById("content").innerHTML = MainPage(films, featured);
   RenderFilms(films, featured);
@@ -78,12 +74,13 @@ function RenderFilms(films, featured) {
       RenderCinema(film.id);
     });
   });
-
-  const s = document.getElementById("fh");
-  console.log(s);
 }
 
 function RenderCinema(id) {
+  let cinemaHall = {
+    rows: [10, 20, 30, 30, 30, 30, 30, 30, 30, 30, 30],
+  };
+
   var cinemaHallMap = "";
   cinemaHall.rows.forEach((row) => {
     let cinemaHallRow = "";
