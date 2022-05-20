@@ -1,0 +1,32 @@
+.page-background .login-form {
+  width: 300px;
+  height: 100px;
+  padding: 40px;
+  background: rgba(0, 0, 0, 0.5);
+  border-radius: 20px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.login-form .row {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-top: 20px;
+}
+
+.login-form .button {
+  font-weight: bold;
+  cursor: pointer;
+  display: block;
+  margin-top: 20px;
+  background: black;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 10px;
+  font-size: 15px;
+  color: red;
+}

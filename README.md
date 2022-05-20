@@ -16,4 +16,8 @@ Cinema application for ticket booking with user-friendly interface.
 
 https://www.figma.com/community/file/1101608530288529132/Cinema-Website
 
+## Link to delpoyed project:
+
+https://sassiq.github.io/
+
 ###### _Stanislav Chekhovich 953502_
