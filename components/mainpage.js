@@ -10,7 +10,7 @@ export const MainPage = (films, featured) =>
   <p class="featured-desc">
     ${featured.description}
   </p>
-  <button class="featured-button" id="${featured.id}-featured-btn">Buy ticket</button>
+  <a class="featured-button" id="${featured.id}-featured-btn">Buy ticket</a>
   </div>
   <div class="movie-list-container">
   <h1 class="movie-list-title">NEW RELEASES</h1>
@@ -23,7 +23,7 @@ export const MainPage = (films, featured) =>
       <p class="movie-list-item-desc">
       ${film.description}
       </p>
-      <button class="movie-list-item-button" id="${film.id}-btn">Buy ticket</button>
+      <a class="movie-list-item-button" id="${film.id}-btn">Buy ticket</a>
     </div>`
     )
     .join("")}
