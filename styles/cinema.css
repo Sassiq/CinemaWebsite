@@ -1,0 +1,30 @@
+.cinema-container {
+  border: 2px solid black;
+  border-radius: 20px;
+  background: rgba(100, 100, 100, 0.6);
+  padding: 30px;
+  display: inline-block;
+  vertical-align: middle;
+}
+
+.cinema-hall {
+  text-align: center;
+  display: inline-block;
+  vertical-align: top;
+}
+
+.seat {
+  height: 15px;
+  width: 15px;
+  margin-right: 2px;
+  border-radius: 4px;
+  background-color: rgb(179, 179, 179);
+  display: inline-block;
+  cursor: pointer;
+}
+
+.passage-between {
+  height: 5px;
+  width: 100%;
+  display: block;
+}
