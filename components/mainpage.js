@@ -1,4 +1,4 @@
-export const MainPage = (films, featured) =>
+export const mainPage = (films, featured) =>
   `<div
   class="featured-content"
   style="
@@ -28,5 +28,6 @@ export const MainPage = (films, featured) =>
     )
     .join("")}
     </div>
+    <i class="fas fa-chevron-right arrow"></i>
   </div>
 </div>`;

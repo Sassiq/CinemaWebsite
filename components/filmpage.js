@@ -1,4 +1,4 @@
-export const FilmPage = (film) => `
+export const filmPage = (film) => `
 <div
 class="page-background"
 style="background-image: url('img/${film.id}-background.jpg')">

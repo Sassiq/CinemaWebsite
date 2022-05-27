@@ -1,6 +1,6 @@
 .page-background .login-form {
   width: 300px;
-  height: 100px;
+  height: 150px;
   padding: 40px;
   background: rgba(0, 0, 0, 0.5);
   border-radius: 20px;
@@ -23,6 +23,20 @@
   cursor: pointer;
   display: block;
   margin-top: 20px;
+  background: black;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 10px;
+  font-size: 15px;
+  color: red;
+}
+
+.google-button {
+  font-weight: bold;
+  margin-top: 20px;
+  display: flex;
+  text-align: center;
+  cursor: pointer;
   background: black;
   padding: 10px 20px;
   border: none;
