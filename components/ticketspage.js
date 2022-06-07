@@ -1,4 +1,4 @@
-export const TicketsPage = (background, tickets) =>
+export const ticketsPage = (background, tickets) =>
   `<div
   class="page-background"
   style="background: url('img/${background}.jpg')"
@@ -7,7 +7,8 @@ export const TicketsPage = (background, tickets) =>
 <div class="tickets-header">My tickets</div>
 <ul class="tickets-list">${tickets
     .map(
-      (ticket) => `<li><a class="tickets-list-item">${ticket.filmName}</a></li>`
+      (ticket) =>
+        `<li><a class="tickets-list-item">${ticket.film} - ${ticket.row} row, place ${ticket.column}</a></li>`
     )
     .join("")}
 </div>
