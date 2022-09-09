@@ -4,7 +4,7 @@ Cinema application for ticket booking with user-friendly interface.
 
 ## Functions of our app:
 
-- Scroll throw new films
+- Scroll through new films
 - Sign up or sign in using your phone number
 - Read descriptions of the newest films
 - Buy tickets
